@@ -1,0 +1,153 @@
+/*  header start  */
+header{
+    display: flex;
+    height: 1.253333rem;
+    background-color: #FA3432;   
+    font-size: .4rem;
+    padding: 0rem .426667rem 0rem .426667rem;    
+    justify-content: space-between;
+    align-items: center;
+}
+header a{ 
+    color: white;
+
+}
+header .loginArea{
+    color: white;
+}
+header .logo{
+    background: url("../img/logo.png")no-repeat left center;
+    background-size: .626667rem .653333rem;
+    padding-left: .746667rem;
+}
+header .logo h1{
+    font-size: .4rem;
+}
+/* header end */
+/* topmenu start */
+.topmenu{
+    background-color: white;
+    display: flex;
+    height: 1.1466667rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .32rem;
+
+}
+.topmenu a{
+    color: #3e3d3d;
+}
+.topmenu .current{
+    color: #FA3432;
+}
+/* topmenu end */
+/* 滚动图 start*/
+.box .gdt{
+    width: 10rem;
+    height: 4.84rem;
+    background: url("../img/slider1.jpg")no-repeat;
+    background-size: 10rem 4.84rem;
+}
+/* 滚动图 end */
+/* project :start */
+.project{
+    height: 2.666667rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: .013333rem;
+    border-color: #3a3b3c52;
+}
+.project .text{
+    font-size: .333333rem;
+    color: #808080;
+}
+.project .box1{
+    height: 1.706667rem;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project .box2{
+    height: 1.706667rem;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project .box3{
+    height: 1.706667rem;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project .box4{
+    height: 1.706667rem;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project .box1 .img1{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url("../img/home_ico_01.png")no-repeat;
+    background-size: 1.2rem 1.2rem;
+}
+.project .box2 .img2{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url("../img/home_ico_02.png")no-repeat;
+    background-size: 1.2rem 1.2rem;
+}
+.project .box3 .img3{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url("../img/home_ico_03.png")no-repeat;
+    background-size: 1.2rem 1.2rem;
+}
+.project .box4 .img4{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url("../img/home_ico_04.png")no-repeat;
+    background-size: 1.2rem 1.2rem;
+}
+/* project end */
+/* 热门产品 start */
+.rmcp{
+    width: 100%;
+    height: 1.266667rem;
+    display: flex;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+.rmcp_logo{
+    height: .6rem;
+    width: .6rem;
+    background: url("../img/home_ico_09.png")no-repeat;
+    background-size: .6rem .6rem;
+    margin-left: .333333rem;
+    margin-right: .2rem;
+}
+.rmcp_text1{
+    font-size: .4rem;
+    color: #494848;
+}
+.rmcp_text2{
+    font-size: .36rem;
+    color: #9a9b9c;
+    margin-left: 5.933333rem;
+}
+/* 热门产品 end */
+/* 产品 start */
+
+/* 产品 end */
