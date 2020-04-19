@@ -24,6 +24,8 @@ header .logo h1{
     font-size: .4rem;
 }
 /* header end */
+
+
 /* topmenu start */
 .topmenu{
     background-color: white;
@@ -41,6 +43,8 @@ header .logo h1{
     color: #FA3432;
 }
 /* topmenu end */
+
+
 /* 滚动图 start*/
 .box .gdt{
     width: 10rem;
@@ -49,6 +53,8 @@ header .logo h1{
     background-size: 10rem 4.84rem;
 }
 /* 滚动图 end */
+
+
 /* project :start */
 .project{
     height: 2.666667rem;
@@ -57,8 +63,8 @@ header .logo h1{
     justify-content: space-around;
     align-items: center;
     border-bottom-style: solid;
-    border-bottom-width: .013333rem;
-    border-color: #3a3b3c52;
+    border-bottom-width: .026667rem;
+    border-color: #3a3b3c23;
 }
 .project .text{
     font-size: .333333rem;
@@ -66,35 +72,43 @@ header .logo h1{
 }
 .project .box1{
     height: 1.706667rem;
-    width: 25%;
+    width: 1.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: .4rem;
+    margin-right: .4rem;
 }
 .project .box2{
     height: 1.706667rem;
-    width: 25%;
+    width: 1.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: .4rem;
+    margin-right: .4rem;
 }
 .project .box3{
     height: 1.706667rem;
-    width: 25%;
+    width: 1.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: .4rem;
+    margin-right: .4rem;
 }
 .project .box4{
     height: 1.706667rem;
-    width: 25%;
+    width: 1.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: .4rem;
+    margin-right: .4rem;
 }
 .project .box1 .img1{
     width: 1.2rem;
@@ -121,6 +135,8 @@ header .logo h1{
     background-size: 1.2rem 1.2rem;
 }
 /* project end */
+
+
 /* 热门产品 start */
 .rmcp{
     width: 100%;
@@ -144,10 +160,230 @@ header .logo h1{
 }
 .rmcp_text2{
     font-size: .36rem;
-    color: #9a9b9c;
     margin-left: 5.933333rem;
 }
+.rmcp_text2 a{
+    color: #9a9b9c;
+}
+.rmcp_text1 a{
+    color: #494848;
+}
 /* 热门产品 end */
-/* 产品 start */
 
+
+/* 产品 start */
+.cp{
+    width: 9.333333rem;
+    height: 3.4rem;
+    border-width: .026667rem;
+    border-color: #3a3b3c23;
+    border-style: solid;
+    border-radius: .066667rem;
+    margin: 0rem .306667rem .333333rem;
+    background-color: #fff;
+}
+.cp .head{
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cp .head .text1{
+    font-size: .373333rem;
+    color: #494848;
+    margin: .333333rem auto 0rem .333333rem;
+}
+.cp .head .box1{
+    display: flex;
+}
+.cp .head .text2{
+    width: 1.133333rem;
+    height: .4rem;
+    background-color: #ffab37;
+    color:#ffffff;
+    font-size: .32rem;
+    border-radius: .026667rem;
+    text-align: center;
+    margin:auto .066667rem .373333rem auto;
+    line-height: .4rem;
+}
+.cp .head .v{
+    width: .44rem;
+    height: .4rem;
+    font-size: .533333rem;
+    font-family: 宋体;
+    /* font-style: italic; */
+    color: #ffffff;
+    background-color: #ff7404;
+    text-align: center;
+    line-height: .32rem;
+    margin: auto .293333rem .373333rem auto;
+}
+.cp .center{
+    height: 2.2rem;
+    display: flex;
+}
+.cp .textp{
+    display: flex;
+    width: 2.333333rem;
+    height: .533333rem;
+    margin: .666667rem 1.16rem auto .933333rem;
+}
+.cp .textp1{
+    font-size: .506667rem;
+    color: #fb4034;
+}
+.cp .textp2{
+    font-size: .32rem;
+    color: #ff7900;
+    line-height: .8rem;
+}
+.cp .text_center{
+    width: 1.666667rem;
+    height: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto .746667rem .746667rem 0rem;
+    align-items: flex-start;
+}
+.cp .text_center .text_number{
+    height: .4rem;
+    width: 1.2rem;
+    font-size: .4rem;
+    color: #3d3c3c;
+    display: flex;
+    line-height: .333333rem;
+}
+.cp .text_center .text_number span{
+    color: #9a9b9c;
+    margin-left: .133333rem;
+}
+.cp .text_center .text{
+    font-size: .4rem;
+    color: #9a9b9c;
+    margin-top: .4rem;
+}
+.cp .center .img{
+    width: 2.493333rem;
+    background: url("../img/home_percent.png")no-repeat;
+    background-size: 1.813333rem 1.813333rem;
+}
 /* 产品 end */
+
+
+/* 企业动态 start */
+.cpdt .head{
+    height: .533333rem;
+    margin-bottom: .333333rem;
+}
+.cpdt .head .icon{
+    height: .533333rem;
+    width: 100%;
+    margin-left: .333333rem;
+    background: url("../img/home_ico_10.png")no-repeat;
+    background-size: .6rem .533333rem;
+    display: flex;    
+}
+.cpdt .head .icon span{
+    font-size: .4rem;
+    color: #424141;
+    margin-left: .8rem;    
+    line-height: .493333rem;
+}
+.cpdt .body{
+    height: 6.4rem;
+    border-width: .026667rem;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    color: #3a3b3c23;
+    background-color: #fff;
+}
+.cpdt .body .content{
+    height: 1.533333rem;
+    margin-top: .466667rem;
+    display: flex;
+}
+.cpdt .body .content .img1{
+    width: 1.533333rem;
+    height: 1.533333rem;
+    background: url("../img/news20170310144045_植树节专享标题.jpg")no-repeat;
+    background-size: 1.533333rem 1.533333rem;
+    border-radius: .306667rem;
+    margin-left: .306667rem;
+    margin-right: .306667rem;
+}
+.cpdt .body .content .img2{
+    width: 1.533333rem;
+    height: 1.533333rem;
+    background: url("../img/植树节奖励.png")no-repeat;
+    background-size: 1.533333rem 1.533333rem;
+    border-radius: .306667rem;
+    margin-left: .306667rem;
+    margin-right: .306667rem;
+}
+.cpdt .body .content .img3{
+    width: 1.533333rem;
+    height: 1.533333rem;
+    background: url("../img/news20170309133946_工资日标题.jpg")no-repeat;
+    background-size: 1.533333rem 1.533333rem;
+    border-radius: .306667rem;
+    margin-left: .306667rem;
+    margin-right: .306667rem;
+}
+.cpdt .body .content .text{
+    width: 7.92rem;
+}
+.cpdt .body .content .text1{
+    height: .4rem;
+    width: 7.92rem;
+    color: #494848;
+    font-size: .4rem;
+    margin-bottom: .333333rem;
+}
+.cpdt .body .content .text2{
+    height: .4rem;
+    font-size: .333333rem;
+    color: #9a9b9c;
+    display: flex;
+}
+.cpdt .body .content .text2 .center{
+    flex-grow: 1;
+}
+.cpdt .body .content .text2 .right{
+    text-align: right;
+    width: 3.333333rem;
+    margin-right: .306667rem;
+}
+/* 企业动态 end */
+
+
+/* bottom start */
+.bottom{
+    height: 2.2rem;
+    margin-top: .306667rem;
+    border-width: .026667rem;
+    border-top-style: solid;
+    color: #3a3b3c23;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bottom .first{
+    height: .373333rem;
+    width: 9.946667rem;
+    text-align: center;
+    font-size: .373333rem;
+    color: #494848;
+    margin: .6rem auto auto auto;
+}
+.bottom .first a{
+    font-size: .373333rem;
+    color: #494848;
+}
+.bottom .second{
+    height: .346667rem;
+    font-size: .346667rem;
+    color: #9a9b9c;
+    margin: auto auto .6rem auto;    
+}
+/* bottom end */
