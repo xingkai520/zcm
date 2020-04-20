@@ -139,7 +139,6 @@ header .logo h1{
 
 /* 热门产品 start */
 .rmcp{
-    width: 100%;
     height: 1.266667rem;
     display: flex;
     background-color: #f9f9f9;
@@ -274,10 +273,11 @@ header .logo h1{
 .cpdt .head{
     height: .533333rem;
     margin-bottom: .333333rem;
+
 }
 .cpdt .head .icon{
     height: .533333rem;
-    width: 100%;
+
     margin-left: .333333rem;
     background: url("../img/home_ico_10.png")no-repeat;
     background-size: .6rem .533333rem;
@@ -330,11 +330,11 @@ header .logo h1{
     margin-right: .306667rem;
 }
 .cpdt .body .content .text{
-    width: 7.92rem;
+    flex-grow: 1;
 }
 .cpdt .body .content .text1{
     height: .4rem;
-    width: 7.92rem;
+    flex-grow: 1;
     color: #494848;
     font-size: .4rem;
     margin-bottom: .333333rem;
@@ -370,7 +370,7 @@ header .logo h1{
 }
 .bottom .first{
     height: .373333rem;
-    width: 9.946667rem;
+    width: 100%;
     text-align: center;
     font-size: .373333rem;
     color: #494848;
