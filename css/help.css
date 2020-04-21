@@ -1,0 +1,183 @@
+body{
+    height: 17.773333rem;
+    background-color: #f9f9f9;
+}
+/* header start */
+header{
+    height: 1.226667rem;
+    background-color: #fa3432;
+    display: flex;
+    align-items: center;
+    margin-bottom: .2rem;
+}
+header .back_img{
+    height: .4rem;
+    width: .6rem;
+    background: url("../img/back.png") no-repeat;
+    background-size: .6rem .4rem;
+    margin-left: .4rem;
+}
+header .text{
+    font-size: .373333rem;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+}
+header .you_img{
+    width: .6rem;
+    height: .466667rem;
+    background: url("../img/more.png")no-repeat;
+    background-size: .6rem .466667rem;
+    margin-right: .506667rem;
+}
+/* header end */
+
+
+/* body start */
+/* .body{
+    height: 17.773333rem;
+} */
+.body .project .box{
+    height: .8rem;
+    width: 100%;
+    margin-bottom: .36rem;
+    display: flex;  
+    align-items: center;
+
+}
+.body .project .box .text{
+    font-size: .333333rem;
+    color: #4c4b4b;
+    line-height: .8rem;
+    flex-grow: 1;
+}
+.body .project .box .img_right{
+    width: .2rem;
+    height: .2rem;
+    background: url("../img/帮助中心_detail.png")no-repeat;
+    background-size: .2rem .2rem;
+    margin-right: .506667rem;
+}
+.body .project .box .img1{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_1.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img2{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_2.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img3{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_3.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img4{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_4.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img5{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_5.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img6{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_6.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img7{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_7.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .project .box .img8{
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/帮助中心_icon_8.png")no-repeat;
+    background-size: .8rem .8rem;
+    margin: 0 .28rem 0 .4rem;
+}
+.body .body_bottom{
+    height: 1.706667rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: .493333rem;
+}
+.body .body_bottom .img_phone{
+    width: 1.04rem;
+    height: 1.066667rem;
+    background: url("../img/帮助中心_phone.png")no-repeat;
+    background-size: 1.066667rem 1.066667rem;
+    margin: .32rem .373333rem .32rem .426667rem;
+}
+.body .body_bottom .text{
+    height: .8rem;
+    width: 8.133333rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.body .body_bottom .text .text1{
+    font-size: .4rem;
+    color: #494848;
+}
+.body .body_bottom .text .text2{
+    font-size: .4rem;
+    color: #06a2ce;
+}
+.body .body_bottom .text .text3{
+    font-size: .266667rem;
+    color: #989797;
+}
+/* body end */
+
+
+/* bottom start */
+.bottom{
+    height: 2.2rem;
+    margin-top: .333333rem;
+    border-width: .026667rem;
+    border-top-style: solid;
+    color: #3a3b3c23;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.bottom .first{
+    height: .373333rem;
+    width: 100%;
+    text-align: center;
+    font-size: .373333rem;
+    color: #494848;
+    margin: .6rem auto auto auto;
+}
+.bottom .first a{
+    font-size: .373333rem;
+    color: #494848;
+}
+.bottom .second{
+    height: .346667rem;
+    font-size: .346667rem;
+    color: #9a9b9c;
+    margin: auto auto .6rem auto;    
+}
+/* bottom end */
