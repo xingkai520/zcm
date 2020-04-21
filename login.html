@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script>
+        // rem适配
+        window.onload = function () {
+            let fs = document.documentElement.clientWidth * 75 / 750;
+            document.querySelector("html").style.fontSize = fs + "px";
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <a class="back_img" href="index.html"></a>
+        <span class="text">验证手机号</span>
+        <a class="you_img" href="#"></a>
+    </header>
+    <!-- header end -->
+
+
+    <!-- body start -->
+    <div class="body">
+        <div class="icon_img">
+            <div class="icon">
+            </div>
+        </div>
+        <div class="text">
+            请输入手机号码：
+        </div>
+        <div class="input">
+            <div class="img_phone"></div>
+            <input type="text" value="请输入手机号码" onFocus="if(value=='请输入手机号码') {value=''}"
+                onBlur="if(value==''){value='请输入手机号码'}">
+        </div>
+        <a href="#">
+            <div class="xyb">
+                下一步
+            </div>
+        </a>
+        <div class="bottom_text">
+            <input type="checkbox">
+            <a href="#">阅读并同意《招财猫理财用户使用及隐私协议》</a>
+        </div>
+    </div>
+    <!-- body end -->
+
+
+    <!-- bottom start -->
+    <div class="bottom">
+        <div class="first">
+            <a href="">触屏版</a> | <a href="">电脑版</a> | <a href="">APP下载</a>
+        </div>
+        <div class="second">
+            2020招财猫理财 豫ICP备999999号
+        </div>
+    </div>
+    <!-- bottom end -->
+</body>
+
+</html>

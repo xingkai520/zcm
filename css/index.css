@@ -367,6 +367,7 @@ header .logo h1{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #fff;
 }
 .bottom .first{
     height: .373333rem;
