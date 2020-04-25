@@ -1,0 +1,147 @@
+/* header start */
+header{
+    width: 7.5rem;
+    height: .92rem;
+    background-color: #fa3432;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+header .text{
+    font-size: .28rem;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+}
+header a{
+    color: white;
+}
+header  .icon-caidan:before{
+    font-size: .4rem;
+    margin-right: .38rem;
+}
+header  .icon-fanhui:before{
+    font-size: .4rem;
+    margin-left: .28rem;
+}
+/* header end */
+
+
+/* head start */
+.kong{
+    height: .92rem;
+}
+.head{
+    height: 2.22rem;
+    background:linear-gradient(#ff3c01,#d80607);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.head .text1{
+    font-size: .68rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin: .5rem 0 .42rem 0;
+}
+.head .text2{
+    font-size: .3rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+/* head end */
+
+
+/* body start */
+.body .top{
+    height: .79rem;
+    display: flex;
+    align-items: center;
+    border-color: #f1f0f0;
+    border-width: .03rem;
+    border-bottom-style: solid;
+}
+.body .top .text1{
+    font-size: .3rem;
+    color: #777;
+    border-color: #f1f0f0;
+    border-width: .03rem;
+    border-right-style: solid;
+    width: 50%;
+    text-align: center;
+}
+.body .top .text2{
+    font-size: .3rem;
+    color: #777;
+    width: 50%;
+    text-align: center;
+}
+.body .neirong{
+    width: 6.2rem;
+    height: 2.5rem;
+    font-size: .24rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../img/detail_icon_bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin: .68rem .65rem 0;
+    justify-content: space-around;
+}
+
+.body .neirong .text1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #ffc166;
+}
+
+.body .neirong .text11{
+    margin-right: .53rem;
+}
+.body .neirong .text2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #ffc166;
+}
+.body .neirong .text21{
+    margin-right: .53rem;
+}
+.body .neirong .icon1{
+    width: .55rem;
+    height: .55rem;
+    display: flex;
+    background: url("../img/detial_icon1.png")no-repeat;
+    background-size: .55rem .55rem;
+    margin-right: .13rem;
+}
+.body .neirong .icon2{
+    width: .55rem;
+    height: .55rem;
+    display: flex;
+    background: url("../img/detial_icon2.png")no-repeat;
+    background-size: .55rem .55rem;
+    margin-right: .13rem;
+}
+.body .neirong .icon3{
+    width: .55rem;
+    height: .55rem;
+    display: flex;
+    background: url("../img/detial_icon3.png")no-repeat;
+    background-size: .55rem .55rem;
+    margin-right: .13rem;
+}
+.body .neirong .icon4{
+    width: .55rem;
+    height: .55rem;
+    display: flex;
+    background: url("../img/detial_icon4.png")no-repeat;
+    background-size: .55rem .55rem;
+    margin-right: .13rem;
+}
+/* body end */
